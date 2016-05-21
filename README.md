@@ -1,6 +1,15 @@
 # Arithmetic
 
-**TODO: Add description**
+A basic Arithmetic module in Elixir featuring tail recursion.
+  - gcd, lcm
+  - gen_prime (using the Sieve of Eratosthenes method)
+  - prime_dec (finding the canonical decomposition in primne factors)
+  - pow (using a divide and conquer method)
+  - divisors
+
+## TODO
+  add more function
+  packaging
 
 ## Installation
 
@@ -17,4 +26,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:arithmetic]]
         end
-
